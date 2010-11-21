@@ -1,0 +1,67 @@
+QMainWindow {
+background:#c0c0c0;
+
+}
+
+#centralwidget {
+background:transparent;
+}
+
+QTabBar::tab:selected {
+	color:#00aaff;
+	font-weight:bold;
+	
+ }
+
+QTabBar::tab {
+  
+  height:100%;
+  
+}
+  
+QTreeWidget {
+color:#777777;
+font-size:9pt;
+
+}
+
+
+QMenuBar {
+color:#777777;
+font-weight:bold;
+width:30px;
+
+}
+
+
+#toolBar {
+background:white;
+}
+
+
+#CoursesToolBar, #TodoToolbar, #EditToolbar, #fontToolbar, #ScheduleToolbar {
+border-radius:5px;
+border:1px solid #c0c0c0;
+}
+
+QTreeWidget {
+border-radius:5px;
+border:1px solid #c0c0c0;
+}
+
+
+QLineEdit {
+border-radius:5px;
+border:1px solid #c0c0c0;
+}
+
+
+QTextEdit {
+border-radius:5px;
+border:1px solid #c0c0c0;
+}
+
+QTableWidget {
+border-radius:5px;
+border:1px solid #c0c0c0;
+}
