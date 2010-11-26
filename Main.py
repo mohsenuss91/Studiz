@@ -88,8 +88,7 @@ class Main(QMainWindow, MainForm.Ui_MainWindow, Courses, Edit, Todo, Schedule, S
         m.about(self, 'About Author', """ 
         <b>Version</b> : 1.0 <br/>
         <b> Written By :</b> Redouane <br/>
-        <b> E-mail:</b> <a href='mailto:unrealdz@gmail.com?Subject=Dz music Downloader'>unrealdz@gmail.com</a>    <br/>
-        <b>Site:</b>    <br/>
+        <b> E-mail:</b> <a href='mailto:unrealdz@gmail.com?Subject=Studiz'>unrealdz@gmail.com</a>    <br/>
         <b>Repository :</b> <a href="https://github.com/redouane/Studiz">https://github.com/redouane/Studiz</a><br/>
         <b>Blog : </b><a href='http://dzpp.blogspot.com'>dzpp.blogspot.com</a><br/>
         """)

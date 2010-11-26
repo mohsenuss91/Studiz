@@ -14,6 +14,10 @@ from Main import Main
 from os import mkdir, path
 
 
+#reload(sys)
+if hasattr(sys,"setdefaultencoding"):
+    sys.setdefaultencoding("latin-1")
+
 def main():
     class App(QApplication):
         def __init__(self, argv):

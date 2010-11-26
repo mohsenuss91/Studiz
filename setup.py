@@ -1,3 +1,4 @@
+# -*- coding: latin_1 -*-
 from distutils.core import setup
 import py2exe
 
@@ -13,13 +14,14 @@ for files in os.listdir('images/'):
 
 
 Mydata_files.append(('styles', ['styles/style.css']))
+Mydata_files.append(('.', ['Schedule.csv']))
 setup(name = 'Studiz',
 			version = '1.0',
 			author ='Redouane',
 			author_email="unrealdz@gmail.com", 
 			data_files = Mydata_files,
 			windows=[ { 
-							"script": 'Studz.py',
+							"script": 'Studiz.py',
 							"icon_resources": [(1, "images/app.ico") ]
 
 					} ],
